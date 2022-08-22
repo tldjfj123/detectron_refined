@@ -808,7 +808,7 @@ class Visualizer:
                 if keypoint_names:
                     keypoint_name = keypoint_names[idx]
                     visible[keypoint_name] = (x, y)
-
+#hello
         if self.metadata.get("keypoint_connection_rules"):
             for kp0, kp1, color in self.metadata.keypoint_connection_rules:
                 if kp0 in visible and kp1 in visible:
